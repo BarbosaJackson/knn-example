@@ -1,7 +1,7 @@
 from src.KNN import KNN
 
 header = ['SepalLength', 'SepalWidth', 'PetalLength', 'PetalWidth', 'Class']
-dataset_path = '~/Downloads/iris.data'
+dataset_path = 'iris.data'
 knn = KNN(dataset_path, header)
 knn.load_data_set()
 knn.calibration(10)
